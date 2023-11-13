@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editTextPrenom"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Prénom"
+        android:layout_below="@+id/editTextNom"
+        android:layout_alignLeft="@+id/editTextId"
+        android:layout_alignStart="@+id/editTextId" />
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Filiere"
+        android:layout_below="@+id/editTextPrenom"
+        android:layout_alignLeft="@+id/editTextPrenom"
+        android:layout_alignStart="@+id/editTextPrenom" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="Id a editer"
+        android:layout_below="@+id/editTextNote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextNom"
+        android:layout_alignEnd="@+id/editTextNom" />
+    <Button
+        android:id="@+id/btnSoumettre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserer"
+        android:layout_above="@+id/btnSoumettre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/affiche"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:text="Afficher"
+        android:layout_below="@+id/btnSoumettre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/btnSoumettre"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:text="Supprimer"
+        android:layout_below="@+id/affiche"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+

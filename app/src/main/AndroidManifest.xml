@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karakandji20gmail.projet1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".accueil"
+            android:label="@string/title_activity_accueil"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".affichage"
+            android:label="@string/title_activity_affichage"
+            android:parentActivityName=".accueil" >
+        </activity>
+        <activity
+            android:name=".BD"
+            android:label="@string/title_activity_bd" >
+        </activity>
+        <activity
+            android:name=".insertion"
+            android:label="@string/title_activity_insertion" >
+        </activity>
+        <activity
+            android:name=".modifier"
+            android:label="@string/title_activity_modifier" >
+        </activity>
+        <activity
+            android:name=".supprimer"
+            android:label="@string/title_activity_supprimer" >
+        </activity>
+        <activity
+            android:name=".DatabaseHelper"
+            android:label="@string/title_activity_database_helper" >
+        </activity>
+        <activity
+            android:name=".aff"
+            android:label="@string/title_activity_aff" >
+        </activity>
+    </application>
+
+</manifest>

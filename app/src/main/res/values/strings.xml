@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">projet1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_accueil">accueil</string>
+    <string name="title_activity_affichage">affichage</string>
+    <string name="title_activity_bd">BD</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_insertion">insertion</string>
+    <string name="title_activity_afficher">afficher</string>
+    <string name="title_activity_modifier">modifier</string>
+    <string name="title_activity_supprimer">supprimer</string>
+    <string name="title_activity_database_helper">DatabaseHelper</string>
+    <string name="title_activity_aff">aff</string>
+</resources>
